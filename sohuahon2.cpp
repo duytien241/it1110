@@ -22,7 +22,7 @@ int main(){
         }
     }
     if(s==0) printf("Khong co so nao.");
-    else printf("End.");
+    else printf("Co tat ca %d so hua hon.",s);
     getch();
     return 0;
 }
