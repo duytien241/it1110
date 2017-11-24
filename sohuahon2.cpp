@@ -9,7 +9,7 @@ int main(){
         printf("Nhap x:");
         scanf("%d",&x);
     }while(x<=0);
-        for(int i=1;i<=x;i++){
+     for(int i=1;i<=x;i++){
         int tiendz=0; // :))
         for(int t=1;t<i;t++){
             if(i%t==0) tiendz+=t;
