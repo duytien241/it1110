@@ -18,8 +18,10 @@ for(int i=0;i<N;i++){
 	kt=1;
 	printf("%d ",a[i]);
     if(a[i]==2) soluong++;
-    if(a[i]<2||a[i]%2==0)
-    continue;
+    if(a[i]<2||a[i]%2==0){
+	    kt=0;
+            continue;
+    }
     for(int t=3;t<=sqrt(a[i]);t+=2){
     	if(a[i]%t==0) kt=0;
     }
